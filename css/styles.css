@@ -12113,71 +12113,74 @@ a:hover {
 	list-style: none;
 }
 
-.advantages li{
-  background-color: rgb(160, 160, 160, 0.2);
-  border-radius: 20px;
+.advantages li {
+	background-color: rgb(160, 160, 160, 0.2);
+	border-radius: 20px;
 }
 
 .advantages li i {
 	background: linear-gradient(135deg, #574b90 40%, #303a52 60%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	color: transparent;
 	display: inline-block;
 	font-size: 3rem;
 }
 
-.advantages li p{
-  font-size: 2rem;
-  font-weight: 900;
-  background: linear-gradient(100deg, #303a52 30%, #8fb636 60%);
+.advantages li p {
+	font-size: 2rem;
+	font-weight: 900;
+	background: linear-gradient(100deg, #303a52 30%, #8fb636 60%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	color: transparent;
 	display: inline-block;
 }
 
-.message{
-  transition: all 1s;
-  background-color: #ffffffb6;
-  color: #574b90;
-  width: 20em;
-  height: 10em;
-  position: absolute;
-  border-radius: 20px 20px 0px 20px;
-  left: -20%;
-  top: -20%;
-  z-index: 2;
+.message {
+	transition: all 1s;
+	background-color: #ffffffb6;
+	color: #574b90;
+	width: 20em;
+	height: 10em;
+	position: absolute;
+	border-radius: 20px 20px 0px 20px;
+	left: -20%;
+	top: -20%;
+	z-index: 2;
 }
-.inactive-message{
-  top: -500%;
-  
+.inactive-message {
+	top: -500%;
 }
 .message p {
-  font-weight: 900;
-  font-size: 1.4em;
-  width: 80%;
+	font-weight: 900;
+	font-size: 1.4em;
+	width: 80%;
 }
-.triangle{
-  width: 0;
-  height: 0;
-  border-left: 3.1em solid transparent;
-  border-top: 3em solid #ffffffb6;
-  position: absolute;
-  top: 100%;
-  left: 84.5%;
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 3.1em solid transparent;
+	border-top: 3em solid #ffffffb6;
+	position: absolute;
+	top: 100%;
+	left: 84.5%;
 }
 @media (max-width: 500px) {
-  .message{
-    width: 10em;
-    height: 5em;
-    top: -10%;
-    left: 0;
-  }
-  .message p {
-    font-size: 0.6em;
-  }
-  .triangle{
-    border-left: 2em solid transparent;
-    border-top: 2em solid #ffffffb6;
-    left: 80%;
-  }
+	.message {
+		width: 10em;
+		height: 5em;
+		top: -10%;
+		left: 0;
+	}
+	.message p {
+		font-size: 0.6em;
+	}
+	.triangle {
+		border-left: 2em solid transparent;
+		border-top: 2em solid #ffffffb6;
+		left: 80%;
+	}
 }
