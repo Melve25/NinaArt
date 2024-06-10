@@ -12126,6 +12126,7 @@ a:hover {
 	color: transparent;
 	display: inline-block;
 	font-size: 3rem;
+	margin-left: 1rem;
 }
 
 .advantages li p {
@@ -12182,5 +12183,14 @@ a:hover {
 		border-left: 2em solid transparent;
 		border-top: 2em solid #ffffffb6;
 		left: 80%;
+	}
+	.advantages li p {
+		font-size: 1rem;
+	}
+	.advantages li i {
+		font-size: 2rem;
+	}
+	.inactive-message {
+		top: -500%;
 	}
 }
