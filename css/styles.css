@@ -12127,16 +12127,13 @@ a:hover {
 	display: inline-block;
 	font-size: 3rem;
 	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
 .advantages li p {
 	font-size: 2rem;
 	font-weight: 900;
-	background: linear-gradient(100deg, #303a52 30%, #8fb636 60%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
-	color: transparent;
+	color: #574b90;
 	display: inline-block;
 }
 
